@@ -1,0 +1,122 @@
+[
+    {
+        "src": "images/MARGHERITA.jpg",
+        "title": "MARGHERITA",
+        "desc": "A hugely popular margherita, with a deliciously tangy single cheese topping",
+        "price": 110
+    },
+    {
+        "src": "images/FARM HOUSE.jpg",
+        "title": "FARM HOUSE",
+        "desc": "An overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes.",
+        "price": 265
+    },
+    {
+        "src": "images/PEPPY PANEER.jpg",
+        "title": "PEPPY PANEER",
+        "desc": "Chunky paneer with crisp capsicum and spicy red pepper.",
+        "price": 265
+    },
+    {
+        "src": "images/MEXICAN GREEEN WAVE.jpg",
+        "title": "MEXICAN GREEEN WAVE",
+        "desc": "A pizza loaded with crunchy onions, crisp capsicum and jalapeno with sprinkling of exotic Mexican herbs.",
+        "price": 260
+    },
+    {
+        "src": "images/DELUXE VEGGIE.jpg",
+        "title": "DELUXE VEGGIE",
+        "desc": "he onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all.",
+        "price": 220
+    },
+    {
+        "src": "images/VEG EXTRAVAGANZA.jpg",
+        "title": "VEG EXTRAVAGANZA",
+        "desc": "An overload of golden corn, exotic black olives, crunchy onions, crisp capsicum, mushrooms and jalapeno.",
+        "price": 220
+    },
+    {
+        "src": "images/FRESH VEGGIES.jpg",
+        "title": "FRESH VEGGIES",
+        "desc": "Onion & Capsicum - with lots of cheese.",
+        "price": 215
+    },
+    {
+        "src": "images/VEGGIE PARADISE.jpg",
+        "title": "VEGGIE PARADISE",
+        "desc": "Goldern Corn, Black Olives, Capsicum & Red Paprika",
+        "price": 240
+    },
+    {
+        "src": "images/PANEER MAKHANI.jpg",
+        "title": "PANEER MAKHANI",
+        "desc": "Paneer and Capsicum on Makhani Sauce.",
+        "price": 305
+    },
+    {
+        "src": "images/PANEER MAKHANI.jpg",
+        "title": "PANEER MAKHANI",
+        "desc": "Paneer and Capsicum on Makhani Sauce.",
+        "price": 105
+    },
+    {
+        "src": "images/pizza13.jpg",
+        "title": "VEG LOADED",
+        "desc": "Tomato | Grilled Mushroom |Jalapeno |Golden Corn | Beans in a fresh pan crust.",
+        "price": 205
+    },
+    {
+        "src": "images/pizza1.jpg",
+        "title": "PANEER & ONION",
+        "desc": "Creamy PANEER & ONION",
+        "price": 95
+    },
+    {
+        "src": "images/pizza14.jpg",
+        "title": "CHEESE & TOMATO",
+        "desc": "A delectable combination of cheese and juicy tomato.",
+        "price": 595
+    },
+    {
+        "src": "images/achari_do_pyaza.jpg",
+        "title": "ACHARI DO PYAZA",
+        "desc": "Tangy & spicy achari flavour on a super cheesy onion pizza as desi as it gets!",
+        "price": 495
+    },
+    {
+        "src": "images/the_4_cheese_pizza.jpg",
+        "title": "THE 4 CHEESE PIZZA",
+        "desc": "Cheese Overloaded pizza with 4 different varieties of cheese and 4 times the cheese of a normal pizza, including a spicy hit of Ghost.",
+        "price": 195
+    },
+    {
+        "src": "images/KORMA PANEER.jpg",
+        "title": "KORMA PANEER",
+        "desc": "Onions, Sweet Corns, Paneer, Jalapenos in Korma dip ",
+        "price": 295
+    },
+    {
+        "src": "images/PERI PERI VEG.jpg",
+        "title": "PERI PERI VEG",
+        "desc": "Onions, Sweet Corns, Paneer, Olives, Mushroom with peri peri dip. ",
+        "price": 275
+    },
+    {
+        "src": "images/ENGLISH RETREAT.jpg",
+        "title": "PENGLISH RETREAT",
+        "desc": "Olives, Red Paprika, Tomatoes, Paneer, Capsicum, Cheese,Jalapeno Dip.",
+        "price": 265
+    },
+    {
+        "src": "images/the_4_cheese_pizza.jpg",
+        "title": "THE 4 CHEESE PIZZA",
+        "desc": "Cheese Overloaded pizza with 4 different varieties of cheese and 4 times the cheese of a normal pizza, including a spicy hit of Ghost.",
+        "price": 195
+    },
+    {
+        "src": "images/FRESH VEGGIES.jpg",
+        "title": "FRESH VEGGIES",
+        "desc": "Onion & Capsicum - with lots of cheese.",
+        "price": 215
+    }
+]
