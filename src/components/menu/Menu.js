@@ -3,7 +3,7 @@ import "../css/Menu.css";
 import { Helmet } from "react-helmet";
 let data = require("../Menu.json");
 
-function Menu() {
+function Menu({ setCartCount }) {
   return (
     <>
       <div className="bg-black" style={{ marginTop: "90px" }}>
@@ -48,12 +48,14 @@ function Menu() {
                               "cartItem",
                               JSON.stringify(finalData)
                             );
+                            setCartCount(finalData.length);
                           } else {
                             let data = { ...element };
                             localStorage.setItem(
                               "cartItem",
                               JSON.stringify([data])
                             );
+                            setCartCount(1);
                           }
                         }}
                         className="btn btn-danger"

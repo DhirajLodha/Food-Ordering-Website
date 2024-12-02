@@ -4,7 +4,8 @@ import "../css/Home.css";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { useState } from "react";
-function NavBar(props) {
+const baseUrl = process.env.REACT_APP_BACKEND_URL;
+function NavBar({ cartCount }) {
   const [userData, setUserData] = useState({
     name: "",
     email: "",
@@ -23,7 +24,7 @@ function NavBar(props) {
   </Helmet>;
   const handleOnSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:5000/api/auth/createuser", {
+    const res = await fetch(`${baseUrl}/api/auth/createuser`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -47,7 +48,7 @@ function NavBar(props) {
   };
   const handleOnLogin = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:5000/api/auth/login", {
+    const res = await fetch(`${baseUrl}/api/auth/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -337,7 +338,7 @@ function NavBar(props) {
             <button>
               <img src="images/7269244.png" alt="" />
               <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                {props.cartCount}
+                {cartCount || 0}
               </span>
             </button>
           </Link>

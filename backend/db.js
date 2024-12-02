@@ -1,6 +1,7 @@
+const { configDotenv } = require("dotenv");
 const mongoose = require("mongoose");
-
-const mongoURI = "mongodb://localhost:27017/food-delivery";
+configDotenv();
+const mongoURI = process.env.mongoURI;
 
 const connectToMongo = () => {
   mongoose.connect(mongoURI, () => {
