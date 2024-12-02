@@ -1,14 +1,14 @@
-import NavBar from "./components/NavBar/NavBar";
-import Home from "./components/Home/Home";
+import { useState } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import About from "./components/About/About";
-import Footer from "./components/Home/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/Gallery/Gallery";
-import Contact from "./components/contact/Contact";
-import Menu from "./components/menu/Menu";
+import Footer from "./components/Home/Footer";
+import Home from "./components/Home/Home";
+import NavBar from "./components/NavBar/NavBar";
 import Cart from "./components/cart/Cart";
+import Contact from "./components/contact/Contact";
 import styles from "./components/css/nicepage.css";
-import { useEffect, useState } from "react";
+import Menu from "./components/menu/Menu";
 function App() {
   let count = localStorage.getItem("cartItem");
   count = JSON.parse(count);
